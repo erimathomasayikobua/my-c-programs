@@ -10,7 +10,7 @@ int main(){
     printf("4. Payments\n");
     printf("5. Savings and Loans\n");
     printf("6. Financial Services\n");
-    printf("7. Withdraw Money\n");
+    printf("7. Insurance\n");
     printf("8. My Account\n");
     //defining the variables before using them//
     int menu, send_money, Momopay, Account_balance=10000;
@@ -25,7 +25,7 @@ int main(){
         printf("2. Africa\n");
         printf("3. Rest of the World\n");
         printf("4. Send with Care\n");
-        printf("5. Doantions\n");
+        printf("5. Donations\n");
         printf("0. Back\n");
         scanf("%d", &send_money);
         switch(send_money){
